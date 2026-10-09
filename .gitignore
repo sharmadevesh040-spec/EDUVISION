@@ -1,0 +1,57 @@
+# ---------- Maven / Java ----------
+target/
+*.jar
+*.war
+*.class
+*.log
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+mvnw
+mvnw.cmd
+
+# ---------- project-local toolchain (re-fetch with tools\setup-maven.cmd) ----------
+.tools/
+
+# ---------- runtime data ----------
+data/
+*.mv.db
+*.trace.db
+*.lock.db
+
+# ---------- Node / frontend ----------
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- IDEs ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+!.vscode/extensions.json
+.settings/
+.project
+.classpath
+.factorypath
+
+# ---------- OS ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---------- misc ----------
+*.pid
+*.err
+.DS_Store
+.env
+.env.*
+!.env.example

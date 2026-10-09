@@ -1,0 +1,781 @@
+{
+"contents": [
+    {
+        "id":  1,
+        "title":  "Damaged Flight Helmet",
+        "subject":  "HISTORY",
+        "grade":  "9",
+        "description":  "A battle-scarred flight helmet from a cockpit â?? seven times bigger than the old placeholder models. In AR you can walk around it: the cracked visor, oxygen mask and ear-cups tell the story of early aviation safety. Tap each part to see how the design protected pilots.",
+        "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/DamagedHelmet/glTF-Binary/DamagedHelmet.glb",
+        "markerId":  "ARU-HELMET-101",
+        "status":  "PUBLISHED",
+        "version":  1,
+        "partCount":  8,
+        "questionCount":  5,
+        "createdBy":  "Dev Arjun Mehta"
+    },
+    {
+        "id":  2,
+        "title":  "Antique Camera: Optics of Light",
+        "subject":  "SCIENCE",
+        "grade":  "10",
+        "description":  "A 17.5 MB, museum-grade antique camera for a physics lesson on lenses. The bellows, lens plate and film back show exactly how a real image forms. Place it on your desk in AR and tap the parts to explore the optics.",
+        "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/AntiqueCamera/glTF-Binary/AntiqueCamera.glb",
+        "markerId":  "ARU-CAMERA-201",
+        "status":  "PUBLISHED",
+        "version":  1,
+        "partCount":  3,
+        "questionCount":  3,
+        "createdBy":  "Dev Arjun Mehta"
+    },
+    {
+        "id":  3,
+        "title":  "Barramundi Fish: Anatomy of a Fish",
+        "subject":  "SCIENCE",
+        "grade":  "9",
+        "description":  "A 12.5 MB anatomy specimen. Rotate the fish in AR and tap its gills, fins and swim bladder to learn why a fish is built the way it is â?? hydrodynamics you can point at.",
+        "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/BarramundiFish/glTF-Binary/BarramundiFish.glb",
+        "markerId":  "ARU-FISH-301",
+        "status":  "PUBLISHED",
+        "version":  1,
+        "partCount":  3,
+        "questionCount":  3,
+        "createdBy":  "Dev Arjun Mehta"
+    },
+    {
+        "id":  4,
+        "title":  "Avocado: Inside a Plant Cell",
+        "subject":  "SCIENCE",
+        "grade":  "10",
+        "description":  "Peel, flesh and seed â?? an avocado cross-section models the parts of a plant cell at desk scale. Zoom and tap each layer to connect it to what a biology exam actually asks about.",
+        "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/Avocado/glTF-Binary/Avocado.glb",
+        "markerId":  "ARU-AVO-401",
+        "status":  "PUBLISHED",
+        "version":  1,
+        "partCount":  3,
+        "questionCount":  3,
+        "createdBy":  "Dev Arjun Mehta"
+    },
+    {
+        "id":  5,
+        "title":  "Toy Car: Forces \u0026 Motion",
+        "subject":  "MATHEMATICS",
+        "grade":  "10",
+        "description":  "A 5.4 MB toy car that turns a forces lesson into something you can hold. Tap the wheels, chassis and axles to reason about friction, torque and why wheels roll instead of slide.",
+        "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/ToyCar/glTF-Binary/ToyCar.glb",
+        "markerId":  "ARU-CAR-501",
+        "status":  "PUBLISHED",
+        "version":  1,
+        "partCount":  3,
+        "questionCount":  3,
+        "createdBy":  "Dev Arjun Mehta"
+    },
+    {
+        "id":  6,
+        "title":  "Boombox: Sound Waves Explained",
+        "subject":  "SCIENCE",
+        "grade":  "11",
+        "description":  "A 10.6 MB boombox for the waves unit. The speaker grilles, cassette deck and antenna make good landmarks for a lesson on amplitude, frequency and how sound travels through air.",
+        "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/BoomBox/glTF-Binary/BoomBox.glb",
+        "markerId":  "ARU-AUDIO-601",
+        "status":  "PUBLISHED",
+        "version":  1,
+        "partCount":  3,
+        "questionCount":  3,
+        "createdBy":  "Dev Arjun Mehta"
+    }
+]
+,
+"details": {"1": {
+    "id":  1,
+    "title":  "Damaged Flight Helmet",
+    "subject":  "HISTORY",
+    "grade":  "9",
+    "description":  "A battle-scarred flight helmet from a cockpit â?? seven times bigger than the old placeholder models. In AR you can walk around it: the cracked visor, oxygen mask and ear-cups tell the story of early aviation safety. Tap each part to see how the design protected pilots.",
+    "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/DamagedHelmet/glTF-Binary/DamagedHelmet.glb",
+    "markerId":  "ARU-HELMET-101",
+    "audioUrl":  null,
+    "videoUrl":  null,
+    "status":  "PUBLISHED",
+    "version":  1,
+    "createdBy":  "Dev Arjun Mehta",
+    "trackingTestReport":  null,
+    "averageRating":  0.0,
+    "parts":  [
+                  {
+                      "id":  1,
+                      "partName":  "shell",
+                      "label":  "Outer Shell",
+                      "explanation":  "A hardened, crack-resistant shell is what stands between the pilot and debris. The \"damaged\" pitting on this example is real flight history - inspect it in AR and notice how the cracks branch instead of punching through, because the shell is meant to deform, not shatter.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  2,
+                      "partName":  "visor",
+                      "label":  "Cracked Visor",
+                      "explanation":  "The visor is a laminated transparency: even when the outer layer crazes, inner layers keep the pilot\u0027s view. The visible crack pattern is a textbook case of spreading impact energy across many laminated sheets.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  3,
+                      "partName":  "oxygen_mask",
+                      "label":  "Oxygen Mask",
+                      "explanation":  "At altitude there is barely enough oxygen to breathe, so the mask feeds the pilot from a pressure supply. Its seal has to stay airtight while the head moves and talks.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  4,
+                      "partName":  "ear_cup_left",
+                      "label":  "Left Ear Cup",
+                      "explanation":  "Twin speakers and microphones live inside. Comms headsets solve a real problem: in a roaring cockpit you cannot hear speech, so the ear cup must isolate and amplify.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  5,
+                      "partName":  "ear_cup_right",
+                      "label":  "Right Ear Cup",
+                      "explanation":  "Often the channel for the radio transmit microphone. Comparing left and right you can see how early headsets put different functions on each side.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  6,
+                      "partName":  "chin_strap",
+                      "label":  "Chin Strap",
+                      "explanation":  "A helmet that flies off at the first jolt does not protect anyone. The strap is sized for a quick-release buckle - one pull frees the pilot if the aircraft is inverted or sinking.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  7,
+                      "partName":  "comm_port",
+                      "label":  "Comm Port",
+                      "explanation":  "The cable connector plumbed directly to the aircraft\u0027s radio. It has to survive vibration and sweat for months without losing contact - a lesson in why aviation connectors are over-engineered.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  8,
+                      "partName":  "liner",
+                      "label":  "Impact Liner",
+                      "explanation":  "Inside the hard shell sits a soft crushable liner that lengthens the time of any impact, cutting peak G-forces on the skull. Same principle as a car\u0027s crumple zone, scaled to a head.",
+                      "audioUrl":  null
+                  }
+              ],
+    "questions":  [
+                      {
+                          "id":  1,
+                          "questionText":  "Why is the helmet\u0027s shell intentionally designed to deform on impact?",
+                          "options":  [
+                                          "a",
+                                          "So it looks more realistic",
+                                          "b",
+                                          "To spread out and absorb impact energy",
+                                          "c",
+                                          "To make the helmet lighter",
+                                          "d",
+                                          "To bend radio waves"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Aviation history"
+                      },
+                      {
+                          "id":  2,
+                          "questionText":  "Why does cracked laminated visor glass often stay in one piece?",
+                          "options":  [
+                                          "a",
+                                          "Because glass cannot crack",
+                                          "b",
+                                          "Because it is hollow",
+                                          "c",
+                                          "Because the pilot is strong",
+                                          "d",
+                                          "Because layers stop the crack from spreading"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Materials"
+                      },
+                      {
+                          "id":  3,
+                          "questionText":  "Why does a pilot at altitude need the oxygen mask inside the helmet?",
+                          "options":  [
+                                          "a",
+                                          "The air no longer has enough oxygen to breathe",
+                                          "b",
+                                          "The helmet makes oxygen",
+                                          "c",
+                                          "The wind is too cold",
+                                          "d",
+                                          "It blocks engine noise only"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Physiology"
+                      },
+                      {
+                          "id":  4,
+                          "questionText":  "Why put speakers and microphones inside the ear cups?",
+                          "options":  [
+                                          "a",
+                                          "To look symmetrical",
+                                          "b",
+                                          "To hold the strap in place",
+                                          "c",
+                                          "To isolate speech from the roar of the engine",
+                                          "d",
+                                          "To keep the ears warm"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Comms"
+                      },
+                      {
+                          "id":  5,
+                          "questionText":  "What is the point of a quick-release chin strap?",
+                          "options":  [
+                                          "a",
+                                          "It looks like a belt",
+                                          "b",
+                                          "It adjusts temperature",
+                                          "c",
+                                          "It frees the pilot fast in an emergency",
+                                          "d",
+                                          "It holds the oxygen tank"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Safety design"
+                      }
+                  ]
+}
+,"2": {
+    "id":  2,
+    "title":  "Antique Camera: Optics of Light",
+    "subject":  "SCIENCE",
+    "grade":  "10",
+    "description":  "A 17.5 MB, museum-grade antique camera for a physics lesson on lenses. The bellows, lens plate and film back show exactly how a real image forms. Place it on your desk in AR and tap the parts to explore the optics.",
+    "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/AntiqueCamera/glTF-Binary/AntiqueCamera.glb",
+    "markerId":  "ARU-CAMERA-201",
+    "audioUrl":  null,
+    "videoUrl":  null,
+    "status":  "PUBLISHED",
+    "version":  1,
+    "createdBy":  "Dev Arjun Mehta",
+    "trackingTestReport":  null,
+    "averageRating":  0.0,
+    "parts":  [
+                  {
+                      "id":  9,
+                      "partName":  "lens_assembly",
+                      "label":  "Lens Assembly",
+                      "explanation":  "The lens bends light rays so they converge to a sharp image on the film. Its focal length sets how much of the scene fits in frame - short lenses see wide, long lenses zoom.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  10,
+                      "partName":  "bellows",
+                      "label":  "Bellows",
+                      "explanation":  "The accordion tube that keeps light out while letting you move the lens back and forth. Pulling it out focuses on close subjects; pushing it in focuses at infinity.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  11,
+                      "partName":  "film_plate",
+                      "label":  "Film Plate",
+                      "explanation":  "Where the image lands and is recorded. Film is coated in light-sensitive silver chemicals that darken where light falls - the same chemistry your theory textbooks call a latent image.",
+                      "audioUrl":  null
+                  }
+              ],
+    "questions":  [
+                      {
+                          "id":  6,
+                          "questionText":  "What does the lens of a camera do to incoming light?",
+                          "options":  [
+                                          "a",
+                                          "It colours the light",
+                                          "b",
+                                          "It bends light to focus it",
+                                          "c",
+                                          "It blocks all light",
+                                          "d",
+                                          "It turns light into sound"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Optics"
+                      },
+                      {
+                          "id":  7,
+                          "questionText":  "What is the bellows for?",
+                          "options":  [
+                                          "a",
+                                          "Adjusting lens-to-film distance to focus",
+                                          "b",
+                                          "Carrying the film",
+                                          "c",
+                                          "Decorating the camera",
+                                          "d",
+                                          "Zooming digitally"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Focus"
+                      },
+                      {
+                          "id":  8,
+                          "questionText":  "Why does old film darken where light falls on it?",
+                          "options":  [
+                                          "a",
+                                          "Because it is painted black",
+                                          "b",
+                                          "Because it rusts",
+                                          "c",
+                                          "Because it melts",
+                                          "d",
+                                          "Because silver salts react to light"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Chemistry"
+                      }
+                  ]
+}
+,"3": {
+    "id":  3,
+    "title":  "Barramundi Fish: Anatomy of a Fish",
+    "subject":  "SCIENCE",
+    "grade":  "9",
+    "description":  "A 12.5 MB anatomy specimen. Rotate the fish in AR and tap its gills, fins and swim bladder to learn why a fish is built the way it is â?? hydrodynamics you can point at.",
+    "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/BarramundiFish/glTF-Binary/BarramundiFish.glb",
+    "markerId":  "ARU-FISH-301",
+    "audioUrl":  null,
+    "videoUrl":  null,
+    "status":  "PUBLISHED",
+    "version":  1,
+    "createdBy":  "Dev Arjun Mehta",
+    "trackingTestReport":  null,
+    "averageRating":  0.0,
+    "parts":  [
+                  {
+                      "id":  12,
+                      "partName":  "gills",
+                      "label":  "Gills",
+                      "explanation":  "Fish do not breathe air; gills strip dissolved oxygen straight out of the water. Each thin filament gives a huge surface area - lose them and the fish suffocates within minutes.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  13,
+                      "partName":  "dorsal_fin",
+                      "label":  "Dorsal Fin",
+                      "explanation":  "The upright fin on the back works like a keel on a boat: it stops the fish rolling over while it swims. Damage it, and the fish lists to one side.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  14,
+                      "partName":  "swim_bladder",
+                      "label":  "Swim Bladder",
+                      "explanation":  "A gas-filled sac that acts as buoyancy control. Add gas and the fish rises; vent gas and it sinks - no constant swimming needed to hold depth.",
+                      "audioUrl":  null
+                  }
+              ],
+    "questions":  [
+                      {
+                          "id":  9,
+                          "questionText":  "Why do fish need gills instead of lungs?",
+                          "options":  [
+                                          "a",
+                                          "Gills pull oxygen out of water where lungs cannot",
+                                          "b",
+                                          "Fish have no blood",
+                                          "c",
+                                          "Lungs are too small",
+                                          "d",
+                                          "Gills look better"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Respiration"
+                      },
+                      {
+                          "id":  10,
+                          "questionText":  "What job does the dorsal fin do?",
+                          "options":  [
+                                          "a",
+                                          "It makes the fish faster",
+                                          "b",
+                                          "It keeps the fish upright",
+                                          "c",
+                                          "It steers the fish backwards",
+                                          "d",
+                                          "It stores food"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Stability"
+                      },
+                      {
+                          "id":  11,
+                          "questionText":  "How does a swim bladder let a fish hold its depth?",
+                          "options":  [
+                                          "a",
+                                          "It pumps water in and out",
+                                          "b",
+                                          "It flaps harder",
+                                          "c",
+                                          "It adjusts its gas volume",
+                                          "d",
+                                          "It changes colour"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Buoyancy"
+                      }
+                  ]
+}
+,"4": {
+    "id":  4,
+    "title":  "Avocado: Inside a Plant Cell",
+    "subject":  "SCIENCE",
+    "grade":  "10",
+    "description":  "Peel, flesh and seed â?? an avocado cross-section models the parts of a plant cell at desk scale. Zoom and tap each layer to connect it to what a biology exam actually asks about.",
+    "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/Avocado/glTF-Binary/Avocado.glb",
+    "markerId":  "ARU-AVO-401",
+    "audioUrl":  null,
+    "videoUrl":  null,
+    "status":  "PUBLISHED",
+    "version":  1,
+    "createdBy":  "Dev Arjun Mehta",
+    "trackingTestReport":  null,
+    "averageRating":  0.0,
+    "parts":  [
+                  {
+                      "id":  15,
+                      "partName":  "peel",
+                      "label":  "Peel (Cell Wall)",
+                      "explanation":  "The tough dark skin is the plant cell\u0027s outer wall: it holds shape and takes the knocks of the world, just as a cell wall protects a plant cell\u0027s membrane.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  16,
+                      "partName":  "flesh",
+                      "label":  "Flesh (Cytoplasm)",
+                      "explanation":  "The rich green flesh is full of fats and enzymes - the food stores and workhorse chemistry of the cell, like cytoplasm packed with organelles.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  17,
+                      "partName":  "seed",
+                      "label":  "Seed (Nucleus)",
+                      "explanation":  "Every plant cell story comes back to the centre: the seed holds the DNA, the instructions for the next tree. It is the giant, comically oversized nucleus of this fruit.",
+                      "audioUrl":  null
+                  }
+              ],
+    "questions":  [
+                      {
+                          "id":  12,
+                          "questionText":  "What does the avocado\u0027s tough skin do, like a plant cell wall?",
+                          "options":  [
+                                          "a",
+                                          "It makes the fruit sweeter",
+                                          "b",
+                                          "It photosynthesises",
+                                          "c",
+                                          "It gives the fruit energy",
+                                          "d",
+                                          "It protects and holds the shape of the inside"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Cell wall"
+                      },
+                      {
+                          "id":  13,
+                          "questionText":  "The green flesh of the avocado is most like which part of a cell?",
+                          "options":  [
+                                          "a",
+                                          "The nucleus",
+                                          "b",
+                                          "The cytoplasm",
+                                          "c",
+                                          "The cell membrane",
+                                          "d",
+                                          "The vacuole"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Cytoplasm"
+                      },
+                      {
+                          "id":  14,
+                          "questionText":  "The big seed in the middle of the avocado models which cell part?",
+                          "options":  [
+                                          "a",
+                                          "The nucleus",
+                                          "b",
+                                          "The mitochondrion",
+                                          "c",
+                                          "The ribosome",
+                                          "d",
+                                          "The cell wall"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Nucleus"
+                      }
+                  ]
+}
+,"5": {
+    "id":  5,
+    "title":  "Toy Car: Forces \u0026 Motion",
+    "subject":  "MATHEMATICS",
+    "grade":  "10",
+    "description":  "A 5.4 MB toy car that turns a forces lesson into something you can hold. Tap the wheels, chassis and axles to reason about friction, torque and why wheels roll instead of slide.",
+    "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/ToyCar/glTF-Binary/ToyCar.glb",
+    "markerId":  "ARU-CAR-501",
+    "audioUrl":  null,
+    "videoUrl":  null,
+    "status":  "PUBLISHED",
+    "version":  1,
+    "createdBy":  "Dev Arjun Mehta",
+    "trackingTestReport":  null,
+    "averageRating":  0.0,
+    "parts":  [
+                  {
+                      "id":  18,
+                      "partName":  "wheels",
+                      "label":  "Wheels",
+                      "explanation":  "Wheels convert a sliding rub into a rolling touch, slashing friction. Count the contact patches in AR and you have the whole reason carts exist.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  19,
+                      "partName":  "chassis",
+                      "label":  "Chassis",
+                      "explanation":  "The body-frame carries mass and decides how the car scales forces. Heavier chassis, slower acceleration for the same push - Newton\u0027s second law you can toy with.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  20,
+                      "partName":  "axles",
+                      "label":  "Axles",
+                      "explanation":  "A solid axle forces both wheels to turn together; independent axles let them differ. That choice is why karts understeer and sports cars do not.",
+                      "audioUrl":  null
+                  }
+              ],
+    "questions":  [
+                      {
+                          "id":  15,
+                          "questionText":  "Why do wheels roll instead of sliding like a crate?",
+                          "options":  [
+                                          "a",
+                                          "Rolling friction is much smaller than sliding friction",
+                                          "b",
+                                          "Wheels are lighter",
+                                          "c",
+                                          "The ground is oily",
+                                          "d",
+                                          "Gravity pushes harder on wheels"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Friction"
+                      },
+                      {
+                          "id":  16,
+                          "questionText":  "For the same push, what happens to a heavier chassis?",
+                          "options":  [
+                                          "a",
+                                          "It accelerates faster",
+                                          "b",
+                                          "It stops forever",
+                                          "c",
+                                          "It accelerates more slowly",
+                                          "d",
+                                          "Nothing changes"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Newton\u0027s law"
+                      },
+                      {
+                          "id":  17,
+                          "questionText":  "What is the trade-off of a solid axle joining both wheels?",
+                          "options":  [
+                                          "a",
+                                          "Both wheels turn freely",
+                                          "b",
+                                          "It weighs less",
+                                          "c",
+                                          "It always floats",
+                                          "d",
+                                          "Both wheels share one speed, so they fight each other in turns"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Steering geometry"
+                      }
+                  ]
+}
+,"6": {
+    "id":  6,
+    "title":  "Boombox: Sound Waves Explained",
+    "subject":  "SCIENCE",
+    "grade":  "11",
+    "description":  "A 10.6 MB boombox for the waves unit. The speaker grilles, cassette deck and antenna make good landmarks for a lesson on amplitude, frequency and how sound travels through air.",
+    "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/BoomBox/glTF-Binary/BoomBox.glb",
+    "markerId":  "ARU-AUDIO-601",
+    "audioUrl":  null,
+    "videoUrl":  null,
+    "status":  "PUBLISHED",
+    "version":  1,
+    "createdBy":  "Dev Arjun Mehta",
+    "trackingTestReport":  null,
+    "averageRating":  0.0,
+    "parts":  [
+                  {
+                      "id":  21,
+                      "partName":  "speaker_grille",
+                      "label":  "Speaker Grille",
+                      "explanation":  "Behind the grille a cone pushes air back and forth. The frequency of that push is the pitch you hear; the size of it is the volume.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  22,
+                      "partName":  "cassette_deck",
+                      "label":  "Cassette Deck",
+                      "explanation":  "A spinning magnet-reading head turns a magnetised tape back into an electric signal, which the speaker then converts to sound again - a full round trip of energy forms.",
+                      "audioUrl":  null
+                  },
+                  {
+                      "id":  23,
+                      "partName":  "antenna",
+                      "label":  "Antenna",
+                      "explanation":  "A long conductor intercepts radio waves and turns them into a tiny current. Length matters: the best match comes at about a quarter of the wave\u0027s wavelength.",
+                      "audioUrl":  null
+                  }
+              ],
+    "questions":  [
+                      {
+                          "id":  18,
+                          "questionText":  "What does the speaker cone actually do to make sound?",
+                          "options":  [
+                                          "a",
+                                          "It glows",
+                                          "b",
+                                          "It vibrates air to make pressure waves",
+                                          "c",
+                                          "It throws light",
+                                          "d",
+                                          "It spins the air"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Sound"
+                      },
+                      {
+                          "id":  19,
+                          "questionText":  "In a cassette deck, what energy change happens at the playback head?",
+                          "options":  [
+                                          "a",
+                                          "Magnetic pattern to electrical signal",
+                                          "b",
+                                          "Heat to light",
+                                          "c",
+                                          "Sound to magnet",
+                                          "d",
+                                          "Electricity to gravity"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Energy"
+                      },
+                      {
+                          "id":  20,
+                          "questionText":  "Why is antenna length matched to the radio station\u0027s wavelength?",
+                          "options":  [
+                                          "a",
+                                          "To look taller",
+                                          "b",
+                                          "To store more energy",
+                                          "c",
+                                          "To shade the box",
+                                          "d",
+                                          "Because it resonates best near a quarter-wavelength"
+                                      ],
+                          "correctOption":  null,
+                          "explanation":  null,
+                          "topic":  "Waves"
+                      }
+                  ]
+}
+},
+"assignments": [
+    {
+        "id":  1,
+        "title":  "Flight Helmet: Identify the Safety Parts",
+        "instructions":  "Open the Damaged Flight Helmet in AR mode. Tap each labelled part and explain out loud how its design protects the pilot. Then screenshot the annotated model and note which part you think absorbs the most impact energy.",
+        "deadline":  "2026-10-20T15:25:03.718231Z",
+        "status":  "NOT_STARTED",
+        "classId":  1,
+        "className":  "Grade 10 Science - A",
+        "contentId":  1,
+        "contentTitle":  "Damaged Flight Helmet",
+        "subject":  "HISTORY",
+        "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/DamagedHelmet/glTF-Binary/DamagedHelmet.glb",
+        "markerId":  "ARU-HELMET-101",
+        "completion":  0,
+        "lastAccessed":  "never"
+    },
+    {
+        "id":  2,
+        "title":  "Antique Camera: Complete the Optics Quiz",
+        "instructions":  "Take the three-question Antique Camera quiz. You may retry as many times as you like - the goal is 100%. Pay special attention to why the bellows controls focus.",
+        "deadline":  "null",
+        "status":  "NOT_STARTED",
+        "classId":  1,
+        "className":  "Grade 10 Science - A",
+        "contentId":  2,
+        "contentTitle":  "Antique Camera: Optics of Light",
+        "subject":  "SCIENCE",
+        "modelUrl":  "https://cdn.jsdelivr.net/gh/KhronosGroup/glTF-Sample-Assets@main/Models/AntiqueCamera/glTF-Binary/AntiqueCamera.glb",
+        "markerId":  "ARU-CAMERA-201",
+        "completion":  0,
+        "lastAccessed":  "never"
+    }
+]
+,
+"classes": {
+    "id":  1,
+    "name":  "Grade 10 Science - A",
+    "grade":  "10",
+    "section":  "A",
+    "teacherName":  "Ms. Elena Fischer",
+    "studentCount":  8,
+    "assignmentCount":  2
+}
+,
+"progress": {
+    "value":  [
+
+              ],
+    "Count":  0
+}
+,
+"quizResults": {
+    "value":  [
+
+              ],
+    "Count":  0
+}
+,
+"me": {
+    "user":  {
+                 "id":  3,
+                 "name":  "Ravi Sharma",
+                 "email":  "student1@eduvision.com",
+                 "role":  "STUDENT",
+                 "grade":  "10"
+             },
+    "securityNote":  "Passwords are stored as PBKDF2-HMAC-SHA256 hashes and never in plain text."
+}
+
+}
