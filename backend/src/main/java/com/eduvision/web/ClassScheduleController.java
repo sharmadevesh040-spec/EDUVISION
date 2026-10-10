@@ -18,6 +18,7 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.time.LocalTime;
 import java.time.format.DateTimeParseException;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -95,6 +96,11 @@ public class ClassScheduleController {
         return schedules
                 .findByEduClassIdOrderByDayOfWeekAscStartTimeAsc(classId)
                 .stream()
+                // dayOfWeek is stored as a STRING (@Enumerated(EnumType.STRING)), so the SQL
+                // ORDER BY sorts the day alphabetically (FRIDAY before MONDAY). Re-sort
+                // chronologically here so the timetable reads Monday -> Sunday.
+                .sorted(java.util.Comparator.comparingInt((ClassSchedule s) -> s.dayOfWeek.ordinal())
+                        .thenComparing(s -> s.startTime))
                 .map(this::toDto)
                 .toList();
     }

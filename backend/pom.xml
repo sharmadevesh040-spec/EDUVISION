@@ -18,8 +18,8 @@
   <description>AR EduVision backend - Spring Boot REST API for an AR educational platform</description>
 
   <properties>
-    <java.version>21</java.version>
-    <maven.compiler.release>21</maven.compiler.release>
+    <java.version>25</java.version>
+    <maven.compiler.release>25</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
@@ -68,7 +68,6 @@
       <scope>runtime</scope>
     </dependency>
 
-    <!-- H2 kept for the embedded 'dev' and test profiles only -->
     <dependency>
       <groupId>com.h2database</groupId>
       <artifactId>h2</artifactId>
