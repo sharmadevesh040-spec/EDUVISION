@@ -16,7 +16,7 @@ REM   Health check:  Invoke-WebRequest http://localhost:PORT/api/health
 REM ---------------------------------------------------------------------------
 setlocal
 
-set "JAVA_HOME=C:\Program Files\Android\Android Studio\jbr"
+set "JAVA_HOME=C:\Program Files\Java\jdk-25.0.2"
 set "PATH=%JAVA_HOME%\bin;%PATH%"
 
 set "BACKEND_DIR=%~dp0"

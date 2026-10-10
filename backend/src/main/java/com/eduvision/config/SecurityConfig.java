@@ -45,7 +45,8 @@ public class SecurityConfig {
             .cors(cors -> cors.configurationSource(corsConfigurationSource()))
             .sessionManagement(s -> s.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/api/auth/**", "/api/health", "/api/dev/**", "/error").permitAll()
+                .requestMatchers("/api/auth/**", "/api/health", "/api/dev/**",
+                        "/api/java-concepts/**", "/error").permitAll()
                 .requestMatchers("/h2-console/**").permitAll()
                 .anyRequest().authenticated())
             .headers(h -> h.frameOptions(f -> f.sameOrigin()))

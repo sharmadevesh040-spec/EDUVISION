@@ -4,14 +4,53 @@ server:
 spring:
   application:
     name: eduvision-backend
+  datasource:
+    url: jdbc:h2:file:./data/eduvision
+    driver: org.h2.Driver
+    username: sa
+    password: ""
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  jackson:
+    time-zone: UTC
+    serialization:
+      write-dates-as-timestamps: false
 
-  # ──────────────────────────────────────────────────────────────────────────
-  # Database — PostgreSQL (production default)
-  #
-  # Override every value via environment variables so you never commit
-  # real credentials.  A docker-compose.yml at the project root spins up a
-  # local Postgres instance that matches these defaults out-of-the-box.
-  # ──────────────────────────────────────────────────────────────────────────
+# AR EduVision settings
+eduvision:
+  jwt:
+    # Override in production via the EDUVISION_JWT_SECRET environment variable.
+    secret: ${EDUVISION_JWT_SECRET:ar-eduvision-dev-secret-key-change-me-in-production-2026}
+    ttl-hours: 12
+  ai:
+    # Leave the API key EMPTY to run the tutor fully offline against approved AR content.
+    api-key: ${EDUVISION_AI_API_KEY:}
+    url: ${EDUVISION_AI_URL:https://api.openai.com/v1/chat/completions}
+    model: ${EDUVISION_AI_MODEL:gpt-4o-mini}
+
+logging:
+  level:
+    root: INFO
+    com.eduvision: INFO
+
+---
+# ────────────────────────────────────────────────────────────────────────────
+# "postgres" profile  –  PostgreSQL (production / docker-compose).
+# The DEFAULT datasource above stays H2 so the app runs here with no Docker.
+# Activate with: java -jar ... --spring.profiles.active=postgres
+#             or set SPRING_PROFILES_ACTIVE=postgres
+# A docker-compose.yml at the project root matches these defaults.
+# ────────────────────────────────────────────────────────────────────────────
+spring:
+  config:
+    activate:
+      on-profile: postgres
+
   datasource:
     url: ${EDUVISION_DB_URL:jdbc:postgresql://localhost:5432/eduvision}
     username: ${EDUVISION_DB_USER:eduvision}
@@ -28,8 +67,6 @@ spring:
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
-      # 'update' keeps the schema in sync during development.
-      # Switch to 'validate' (or use Flyway) in production.
       ddl-auto: update
     open-in-view: false
     properties:
@@ -37,53 +74,3 @@ spring:
         format_sql: true
         jdbc:
           time_zone: UTC
-
-  jackson:
-    time-zone: UTC
-    serialization:
-      write-dates-as-timestamps: false
-
-# ────────────────────────────────────────────────────────────────────────────
-# AR EduVision settings
-# ────────────────────────────────────────────────────────────────────────────
-eduvision:
-  jwt:
-    # Always override via EDUVISION_JWT_SECRET in production.
-    secret: ${EDUVISION_JWT_SECRET:ar-eduvision-dev-secret-key-change-me-in-production-2026}
-    ttl-hours: 12
-  ai:
-    # Leave the API key EMPTY to run the tutor fully offline.
-    api-key: ${EDUVISION_AI_API_KEY:}
-    url: ${EDUVISION_AI_URL:https://api.openai.com/v1/chat/completions}
-    model: ${EDUVISION_AI_MODEL:gpt-4o-mini}
-
-logging:
-  level:
-    root: INFO
-    com.eduvision: INFO
-
----
-# ────────────────────────────────────────────────────────────────────────────
-# "dev" profile  –  uses embedded H2 so you can run locally without Docker.
-# Activate with: java -jar ... --spring.profiles.active=dev
-#             or set SPRING_PROFILES_ACTIVE=dev in your IDE run config.
-# ────────────────────────────────────────────────────────────────────────────
-spring:
-  config:
-    activate:
-      on-profile: dev
-
-  datasource:
-    url: jdbc:h2:file:./data/eduvision
-    username: sa
-    password: ""
-    driver-class-name: org.h2.Driver
-
-  jpa:
-    database-platform: org.hibernate.dialect.H2Dialect
-    hibernate:
-      ddl-auto: update
-
-  h2:
-    console:
-      enabled: true   # available at http://localhost:8080/h2-console
